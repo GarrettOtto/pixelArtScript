@@ -35,19 +35,20 @@ Cookie Example:
 
 ### How to use the script:
 
-1. First, get an image to put into the script so it knows what to create
-2. Re-Size the image to be the size that you want it. If you upload a picture with an average pixel ratio of 1080 × 1080 it will use that much space on the canvas
+1. Open a terminal and run `pip install pillow websocket-client` where the script is located
+2. Get an image to put into the script so it knows what to create
+3. Re-Size the image to be the size that you want it. If you upload a picture with an average pixel ratio of 1080 × 1080 it will use that much space on the canvas
    1. You can do this however you want. Here is how to do it with Photoshop:
       1. Upload image into Photoshop
       2. Go to `Image > Image Size` or click `alt + ctrl + I`
       3. Change dropdown from `Inches` to `Pixels`
       4. Change the `Width` and `Height` pixels to what you want
       5. Save the file
-3. Place that image into the root folder of this project (same directory where `pixelArtScript.py` is located)
-4. Rename the picture to be `pixel_art.png`
+4. Place that image into the root folder of this project (same directory where `pixelArtScript.py` is located)
+5. Rename the picture to be `pixel_art.png`
    1. Make sure it is renamed as a `.png` file
-5. Open the terminal where the script is located
-6. Run the command by running `python pixelArtScript.py`
-7. Input your token that you got earlier
-8. Input where you want your drawing to be
+6. Open the terminal where the script is located
+7. Run the command by running `python pixelArtScript.py`
+8. Input your token that you got earlier
+9. Input where you want your drawing to be
    1. The X and Y coordinate will be the very top-left pixel of the image that you put into the project
