@@ -52,3 +52,7 @@ Cookie Example:
 8. Input your token that you got earlier
 9. Input where you want your drawing to be
    1. The X and Y coordinate will be the very top-left pixel of the image that you put into the project
+
+### Prompts that could help:
+
+- Could you help me redesign this image? I want the inside of the chess puzzle pieces to only be a few colors. Currently there are a lot of colors and since I am going to manually click every pixel on a canvas this will take me a long time if all the colors are different. Could you help me with that?
