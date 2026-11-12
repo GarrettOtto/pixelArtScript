@@ -40,10 +40,11 @@ Cookie Example:
 3. Re-Size the image to be the size that you want it. If you upload a picture with an average pixel ratio of 1080 × 1080 it will use that much space on the canvas
    1. You can do this however you want. Here is how to do it with Photoshop:
       1. Upload image into Photoshop
-      2. Go to `Image > Image Size` or click `alt + ctrl + I`
+      2. Go to `Image > Image Size` or click `ctrl + alt + I`
       3. Change dropdown from `Inches` to `Pixels`
       4. Change the `Width` and `Height` pixels to what you want
-      5. Save the file
+      5. Change the `Resample` dropdown to `Nearest Neighbor`
+      6. Save the file
 4. Place that image into the root folder of this project (same directory where `pixelArtScript.py` is located)
 5. Rename the picture to be `pixel_art.png`
    1. Make sure it is renamed as a `.png` file
